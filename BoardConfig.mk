@@ -92,7 +92,7 @@ TW_IGNORE_MISC_WIPE_DATA := true
 #TW_USE_TOOLBOX := true
 
 # TWRP device specific version
-TW_DEVICE_VERSION := 3
+TW_DEVICE_VERSION := 4
 
 TW_INPUT_BLACKLIST := "pwm-ir"
 TW_EXCLUDE_SUPERSU := true
