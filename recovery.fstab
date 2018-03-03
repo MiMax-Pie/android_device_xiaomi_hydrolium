@@ -4,6 +4,7 @@
 /vendor_image   emmc    /dev/block/bootdevice/by-name/cust
 /data		ext4	/dev/block/bootdevice/by-name/userdata	flags=length=-16384
 /cache          ext4	/dev/block/bootdevice/by-name/cache
+/persist    ext4    /dev/block/bootdevice/by-name/persist   flags=display="Persist"
 /boot		emmc	/dev/block/bootdevice/by-name/boot
 /recovery	emmc	/dev/block/bootdevice/by-name/recovery	flags=backup=1
 
