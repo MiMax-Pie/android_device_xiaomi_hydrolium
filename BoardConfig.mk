@@ -85,7 +85,6 @@ TARGET_RECOVERY_QCOM_RTC_FIX := true
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/msm_hsusb/gadget/lun0/file
 TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
 TW_DEFAULT_BRIGHTNESS := 80
-TW_DEFAULT_EXTERNAL_STORAGE := true
 TW_IGNORE_MISC_WIPE_DATA := true
 
 # Use toybox insted of busybox
@@ -95,7 +94,6 @@ TW_IGNORE_MISC_WIPE_DATA := true
 TW_DEVICE_VERSION := 4
 
 TW_INPUT_BLACKLIST := "pwm-ir"
-TW_EXCLUDE_SUPERSU := true
 TW_INCLUDE_NTFS_3G := true
 TW_EXTRA_LANGUAGES := true
 
