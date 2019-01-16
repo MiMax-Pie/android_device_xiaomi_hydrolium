@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/hydrolium.mk
+    $(LOCAL_DIR)/lineage_hydrolium.mk
